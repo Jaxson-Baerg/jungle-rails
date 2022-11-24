@@ -4,7 +4,7 @@ describe('home-page validations', () => {
     cy.visit('/');
   });
 
-  it("checks that there is products on the page", () => {
+  it("checks that there are products on the page", () => {
     cy.get(".products article").should("be.visible");
   });
   
